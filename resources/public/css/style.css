@@ -1,0 +1,58 @@
+html, body, .main-container, #app{
+ width: 100%;
+ max-width: 100%;
+ height: 100%;
+}
+
+.ctrl-buttons, .main-columns{
+ height: 100%;
+}
+
+.ctrl-buttons{
+}
+
+.ctrl-button{
+ margin-top: 2.5% !important;
+ height: 20%;
+ font-size: 2em;
+}
+
+.lines-wrapper{
+ height: 100%;
+ width: 100%;
+}
+
+.note, .note-line{
+ height: 32px;
+ width: 32px;
+ position: absolute;
+}
+
+.note{
+ background-image: url(../img/note.png);
+}
+
+.note-line{
+ background-image: url(../img/note-line.png);
+}
+
+.lines{
+ height: 400px;
+ max-height: 400px;
+ padding-left: 5%;
+ width: 95%;
+ background-image: url(../img/lines.png);
+}
+
+.col-left{
+ padding-top: 20%;
+}
+
+.col-right{
+ padding-top: 10%;
+}
+
+.game-stats{
+ font-size: 2em;
+ font-weight: bold;
+}
